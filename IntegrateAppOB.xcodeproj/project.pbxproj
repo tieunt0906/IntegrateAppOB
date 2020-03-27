@@ -13,7 +13,93 @@
 		27F4FC4A242D9305009451FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F4FC48242D9305009451FC /* Main.storyboard */; };
 		27F4FC4C242D9306009451FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F4FC4B242D9306009451FC /* Assets.xcassets */; };
 		27F4FC4F242D9306009451FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F4FC4D242D9306009451FC /* LaunchScreen.storyboard */; };
+		27F4FC6F242D951C009451FC /* image_picker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC56242D951B009451FC /* image_picker.framework */; };
+		27F4FC70242D951C009451FC /* fluttertoast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC57242D951B009451FC /* fluttertoast.framework */; };
+		27F4FC71242D951C009451FC /* photo_manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC58242D951B009451FC /* photo_manager.framework */; };
+		27F4FC72242D951C009451FC /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC59242D951B009451FC /* SDWebImage.framework */; };
+		27F4FC73242D951C009451FC /* connectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC5A242D951B009451FC /* connectivity.framework */; };
+		27F4FC74242D951C009451FC /* sqflite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC5B242D951B009451FC /* sqflite.framework */; };
+		27F4FC75242D951C009451FC /* permission_handler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC5C242D951B009451FC /* permission_handler.framework */; };
+		27F4FC76242D951C009451FC /* libwebp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC5D242D951B009451FC /* libwebp.framework */; };
+		27F4FC77242D951C009451FC /* video_player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC5E242D951B009451FC /* video_player.framework */; };
+		27F4FC78242D951C009451FC /* url_launcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC5F242D951C009451FC /* url_launcher.framework */; };
+		27F4FC79242D951C009451FC /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC60242D951C009451FC /* Mantle.framework */; };
+		27F4FC7A242D951C009451FC /* FlutterPluginRegistrant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC61242D951C009451FC /* FlutterPluginRegistrant.framework */; };
+		27F4FC7B242D951C009451FC /* flutter_plugin_android_lifecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC62242D951C009451FC /* flutter_plugin_android_lifecycle.framework */; };
+		27F4FC7C242D951C009451FC /* flutter_downloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC63242D951C009451FC /* flutter_downloader.framework */; };
+		27F4FC7D242D951C009451FC /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC64242D951C009451FC /* Reachability.framework */; };
+		27F4FC7E242D951C009451FC /* webview_flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC65242D951C009451FC /* webview_flutter.framework */; };
+		27F4FC7F242D951C009451FC /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC66242D951C009451FC /* Flutter.framework */; };
+		27F4FC80242D951C009451FC /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC67242D951C009451FC /* App.framework */; };
+		27F4FC81242D951C009451FC /* flutter_image_compress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC68242D951C009451FC /* flutter_image_compress.framework */; };
+		27F4FC82242D951C009451FC /* SDWebImageWebPCoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC69242D951C009451FC /* SDWebImageWebPCoder.framework */; };
+		27F4FC83242D951C009451FC /* path_provider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC6A242D951C009451FC /* path_provider.framework */; };
+		27F4FC84242D951C009451FC /* Regift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC6B242D951C009451FC /* Regift.framework */; };
+		27F4FC85242D951C009451FC /* audioplayers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC6C242D951C009451FC /* audioplayers.framework */; };
+		27F4FC86242D951C009451FC /* flutter_video_compress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC6D242D951C009451FC /* flutter_video_compress.framework */; };
+		27F4FC87242D951C009451FC /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F4FC6E242D951C009451FC /* FMDB.framework */; };
+		27F4FC89242D9536009451FC /* App.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC67242D951C009451FC /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC8A242D9536009451FC /* audioplayers.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC6C242D951C009451FC /* audioplayers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC8B242D9536009451FC /* connectivity.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC5A242D951B009451FC /* connectivity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC8C242D9536009451FC /* flutter_downloader.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC63242D951C009451FC /* flutter_downloader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC8D242D9536009451FC /* flutter_image_compress.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC68242D951C009451FC /* flutter_image_compress.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC8E242D9536009451FC /* flutter_plugin_android_lifecycle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC62242D951C009451FC /* flutter_plugin_android_lifecycle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC8F242D9536009451FC /* flutter_video_compress.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC6D242D951C009451FC /* flutter_video_compress.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC90242D9536009451FC /* Flutter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC66242D951C009451FC /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC91242D953A009451FC /* fluttertoast.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC57242D951B009451FC /* fluttertoast.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC92242D953A009451FC /* FMDB.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC6E242D951C009451FC /* FMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC93242D953A009451FC /* image_picker.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC56242D951B009451FC /* image_picker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC94242D953A009451FC /* libwebp.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC5D242D951B009451FC /* libwebp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC95242D953A009451FC /* Mantle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC60242D951C009451FC /* Mantle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC96242D953A009451FC /* path_provider.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC6A242D951C009451FC /* path_provider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC97242D953A009451FC /* permission_handler.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC5C242D951B009451FC /* permission_handler.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC98242D953A009451FC /* photo_manager.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC58242D951B009451FC /* photo_manager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC99242D953A009451FC /* Reachability.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC64242D951C009451FC /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC9A242D953A009451FC /* Regift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC6B242D951C009451FC /* Regift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC9B242D953A009451FC /* SDWebImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC59242D951B009451FC /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC9C242D953A009451FC /* SDWebImageWebPCoder.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC69242D951C009451FC /* SDWebImageWebPCoder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC9D242D953A009451FC /* sqflite.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC5B242D951B009451FC /* sqflite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC9E242D953A009451FC /* url_launcher.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC5F242D951C009451FC /* url_launcher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FC9F242D953A009451FC /* video_player.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC5E242D951B009451FC /* video_player.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F4FCA0242D953A009451FC /* webview_flutter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27F4FC65242D951C009451FC /* webview_flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		59DFF6E62A204713CD9B8FA3 /* Pods_IntegrateAppOB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5294E1F47AD2C61E1B31BA9 /* Pods_IntegrateAppOB.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27F4FC88242D9529009451FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27F4FC89242D9536009451FC /* App.framework in CopyFiles */,
+				27F4FC8A242D9536009451FC /* audioplayers.framework in CopyFiles */,
+				27F4FC8B242D9536009451FC /* connectivity.framework in CopyFiles */,
+				27F4FC8C242D9536009451FC /* flutter_downloader.framework in CopyFiles */,
+				27F4FC8D242D9536009451FC /* flutter_image_compress.framework in CopyFiles */,
+				27F4FC8E242D9536009451FC /* flutter_plugin_android_lifecycle.framework in CopyFiles */,
+				27F4FC8F242D9536009451FC /* flutter_video_compress.framework in CopyFiles */,
+				27F4FC90242D9536009451FC /* Flutter.framework in CopyFiles */,
+				27F4FC91242D953A009451FC /* fluttertoast.framework in CopyFiles */,
+				27F4FC92242D953A009451FC /* FMDB.framework in CopyFiles */,
+				27F4FC93242D953A009451FC /* image_picker.framework in CopyFiles */,
+				27F4FC94242D953A009451FC /* libwebp.framework in CopyFiles */,
+				27F4FC95242D953A009451FC /* Mantle.framework in CopyFiles */,
+				27F4FC96242D953A009451FC /* path_provider.framework in CopyFiles */,
+				27F4FC97242D953A009451FC /* permission_handler.framework in CopyFiles */,
+				27F4FC98242D953A009451FC /* photo_manager.framework in CopyFiles */,
+				27F4FC99242D953A009451FC /* Reachability.framework in CopyFiles */,
+				27F4FC9A242D953A009451FC /* Regift.framework in CopyFiles */,
+				27F4FC9B242D953A009451FC /* SDWebImage.framework in CopyFiles */,
+				27F4FC9C242D953A009451FC /* SDWebImageWebPCoder.framework in CopyFiles */,
+				27F4FC9D242D953A009451FC /* sqflite.framework in CopyFiles */,
+				27F4FC9E242D953A009451FC /* url_launcher.framework in CopyFiles */,
+				27F4FC9F242D953A009451FC /* video_player.framework in CopyFiles */,
+				27F4FCA0242D953A009451FC /* webview_flutter.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		27F4FC3F242D9304009451FC /* IntegrateAppOB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegrateAppOB.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +110,34 @@
 		27F4FC4B242D9306009451FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27F4FC4E242D9306009451FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27F4FC50242D9306009451FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F4FC56242D951B009451FC /* image_picker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = image_picker.framework; path = "Flutter/$(CONFIGURATION)/image_picker.framework"; sourceTree = "<group>"; };
+		27F4FC57242D951B009451FC /* fluttertoast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = fluttertoast.framework; path = "Flutter/$(CONFIGURATION)/fluttertoast.framework"; sourceTree = "<group>"; };
+		27F4FC58242D951B009451FC /* photo_manager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = photo_manager.framework; path = "Flutter/$(CONFIGURATION)/photo_manager.framework"; sourceTree = "<group>"; };
+		27F4FC59242D951B009451FC /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Flutter/$(CONFIGURATION)/SDWebImage.framework"; sourceTree = "<group>"; };
+		27F4FC5A242D951B009451FC /* connectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = connectivity.framework; path = "Flutter/$(CONFIGURATION)/connectivity.framework"; sourceTree = "<group>"; };
+		27F4FC5B242D951B009451FC /* sqflite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sqflite.framework; path = "Flutter/$(CONFIGURATION)/sqflite.framework"; sourceTree = "<group>"; };
+		27F4FC5C242D951B009451FC /* permission_handler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = permission_handler.framework; path = "Flutter/$(CONFIGURATION)/permission_handler.framework"; sourceTree = "<group>"; };
+		27F4FC5D242D951B009451FC /* libwebp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libwebp.framework; path = "Flutter/$(CONFIGURATION)/libwebp.framework"; sourceTree = "<group>"; };
+		27F4FC5E242D951B009451FC /* video_player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = video_player.framework; path = "Flutter/$(CONFIGURATION)/video_player.framework"; sourceTree = "<group>"; };
+		27F4FC5F242D951C009451FC /* url_launcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = url_launcher.framework; path = "Flutter/$(CONFIGURATION)/url_launcher.framework"; sourceTree = "<group>"; };
+		27F4FC60242D951C009451FC /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = "Flutter/$(CONFIGURATION)/Mantle.framework"; sourceTree = "<group>"; };
+		27F4FC61242D951C009451FC /* FlutterPluginRegistrant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FlutterPluginRegistrant.framework; path = "Flutter/$(CONFIGURATION)/FlutterPluginRegistrant.framework"; sourceTree = "<group>"; };
+		27F4FC62242D951C009451FC /* flutter_plugin_android_lifecycle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flutter_plugin_android_lifecycle.framework; path = "Flutter/$(CONFIGURATION)/flutter_plugin_android_lifecycle.framework"; sourceTree = "<group>"; };
+		27F4FC63242D951C009451FC /* flutter_downloader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flutter_downloader.framework; path = "Flutter/$(CONFIGURATION)/flutter_downloader.framework"; sourceTree = "<group>"; };
+		27F4FC64242D951C009451FC /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = "Flutter/$(CONFIGURATION)/Reachability.framework"; sourceTree = "<group>"; };
+		27F4FC65242D951C009451FC /* webview_flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = webview_flutter.framework; path = "Flutter/$(CONFIGURATION)/webview_flutter.framework"; sourceTree = "<group>"; };
+		27F4FC66242D951C009451FC /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = "Flutter/$(CONFIGURATION)/Flutter.framework"; sourceTree = "<group>"; };
+		27F4FC67242D951C009451FC /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = "Flutter/$(CONFIGURATION)/App.framework"; sourceTree = "<group>"; };
+		27F4FC68242D951C009451FC /* flutter_image_compress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flutter_image_compress.framework; path = "Flutter/$(CONFIGURATION)/flutter_image_compress.framework"; sourceTree = "<group>"; };
+		27F4FC69242D951C009451FC /* SDWebImageWebPCoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImageWebPCoder.framework; path = "Flutter/$(CONFIGURATION)/SDWebImageWebPCoder.framework"; sourceTree = "<group>"; };
+		27F4FC6A242D951C009451FC /* path_provider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = path_provider.framework; path = "Flutter/$(CONFIGURATION)/path_provider.framework"; sourceTree = "<group>"; };
+		27F4FC6B242D951C009451FC /* Regift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Regift.framework; path = "Flutter/$(CONFIGURATION)/Regift.framework"; sourceTree = "<group>"; };
+		27F4FC6C242D951C009451FC /* audioplayers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = audioplayers.framework; path = "Flutter/$(CONFIGURATION)/audioplayers.framework"; sourceTree = "<group>"; };
+		27F4FC6D242D951C009451FC /* flutter_video_compress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flutter_video_compress.framework; path = "Flutter/$(CONFIGURATION)/flutter_video_compress.framework"; sourceTree = "<group>"; };
+		27F4FC6E242D951C009451FC /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = "Flutter/$(CONFIGURATION)/FMDB.framework"; sourceTree = "<group>"; };
+		8183DCF89E6BFC6860611FE2 /* Pods-IntegrateAppOB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateAppOB.debug.xcconfig"; path = "Target Support Files/Pods-IntegrateAppOB/Pods-IntegrateAppOB.debug.xcconfig"; sourceTree = "<group>"; };
+		942C8845B243A285ED727780 /* Pods-IntegrateAppOB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateAppOB.release.xcconfig"; path = "Target Support Files/Pods-IntegrateAppOB/Pods-IntegrateAppOB.release.xcconfig"; sourceTree = "<group>"; };
+		D5294E1F47AD2C61E1B31BA9 /* Pods_IntegrateAppOB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntegrateAppOB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +145,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DFF6E62A204713CD9B8FA3 /* Pods_IntegrateAppOB.framework in Frameworks */,
+				27F4FC6F242D951C009451FC /* image_picker.framework in Frameworks */,
+				27F4FC70242D951C009451FC /* fluttertoast.framework in Frameworks */,
+				27F4FC71242D951C009451FC /* photo_manager.framework in Frameworks */,
+				27F4FC72242D951C009451FC /* SDWebImage.framework in Frameworks */,
+				27F4FC73242D951C009451FC /* connectivity.framework in Frameworks */,
+				27F4FC74242D951C009451FC /* sqflite.framework in Frameworks */,
+				27F4FC75242D951C009451FC /* permission_handler.framework in Frameworks */,
+				27F4FC76242D951C009451FC /* libwebp.framework in Frameworks */,
+				27F4FC77242D951C009451FC /* video_player.framework in Frameworks */,
+				27F4FC78242D951C009451FC /* url_launcher.framework in Frameworks */,
+				27F4FC79242D951C009451FC /* Mantle.framework in Frameworks */,
+				27F4FC7A242D951C009451FC /* FlutterPluginRegistrant.framework in Frameworks */,
+				27F4FC7B242D951C009451FC /* flutter_plugin_android_lifecycle.framework in Frameworks */,
+				27F4FC7C242D951C009451FC /* flutter_downloader.framework in Frameworks */,
+				27F4FC7D242D951C009451FC /* Reachability.framework in Frameworks */,
+				27F4FC7E242D951C009451FC /* webview_flutter.framework in Frameworks */,
+				27F4FC7F242D951C009451FC /* Flutter.framework in Frameworks */,
+				27F4FC80242D951C009451FC /* App.framework in Frameworks */,
+				27F4FC81242D951C009451FC /* flutter_image_compress.framework in Frameworks */,
+				27F4FC82242D951C009451FC /* SDWebImageWebPCoder.framework in Frameworks */,
+				27F4FC83242D951C009451FC /* path_provider.framework in Frameworks */,
+				27F4FC84242D951C009451FC /* Regift.framework in Frameworks */,
+				27F4FC85242D951C009451FC /* audioplayers.framework in Frameworks */,
+				27F4FC86242D951C009451FC /* flutter_video_compress.framework in Frameworks */,
+				27F4FC87242D951C009451FC /* FMDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +182,8 @@
 			children = (
 				27F4FC41242D9304009451FC /* IntegrateAppOB */,
 				27F4FC40242D9304009451FC /* Products */,
+				89A2F336EED5C3DEE8E76D6F /* Pods */,
+				2DDA466D9003331D61855E7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +209,48 @@
 			path = IntegrateAppOB;
 			sourceTree = "<group>";
 		};
+		2DDA466D9003331D61855E7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27F4FC67242D951C009451FC /* App.framework */,
+				27F4FC6C242D951C009451FC /* audioplayers.framework */,
+				27F4FC5A242D951B009451FC /* connectivity.framework */,
+				27F4FC63242D951C009451FC /* flutter_downloader.framework */,
+				27F4FC68242D951C009451FC /* flutter_image_compress.framework */,
+				27F4FC62242D951C009451FC /* flutter_plugin_android_lifecycle.framework */,
+				27F4FC6D242D951C009451FC /* flutter_video_compress.framework */,
+				27F4FC66242D951C009451FC /* Flutter.framework */,
+				27F4FC61242D951C009451FC /* FlutterPluginRegistrant.framework */,
+				27F4FC57242D951B009451FC /* fluttertoast.framework */,
+				27F4FC6E242D951C009451FC /* FMDB.framework */,
+				27F4FC56242D951B009451FC /* image_picker.framework */,
+				27F4FC5D242D951B009451FC /* libwebp.framework */,
+				27F4FC60242D951C009451FC /* Mantle.framework */,
+				27F4FC6A242D951C009451FC /* path_provider.framework */,
+				27F4FC5C242D951B009451FC /* permission_handler.framework */,
+				27F4FC58242D951B009451FC /* photo_manager.framework */,
+				27F4FC64242D951C009451FC /* Reachability.framework */,
+				27F4FC6B242D951C009451FC /* Regift.framework */,
+				27F4FC59242D951B009451FC /* SDWebImage.framework */,
+				27F4FC69242D951C009451FC /* SDWebImageWebPCoder.framework */,
+				27F4FC5B242D951B009451FC /* sqflite.framework */,
+				27F4FC5F242D951C009451FC /* url_launcher.framework */,
+				27F4FC5E242D951B009451FC /* video_player.framework */,
+				27F4FC65242D951C009451FC /* webview_flutter.framework */,
+				D5294E1F47AD2C61E1B31BA9 /* Pods_IntegrateAppOB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89A2F336EED5C3DEE8E76D6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8183DCF89E6BFC6860611FE2 /* Pods-IntegrateAppOB.debug.xcconfig */,
+				942C8845B243A285ED727780 /* Pods-IntegrateAppOB.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27F4FC53242D9306009451FC /* Build configuration list for PBXNativeTarget "IntegrateAppOB" */;
 			buildPhases = (
+				E5BE8C18E04C8927251C54D5 /* [CP] Check Pods Manifest.lock */,
 				27F4FC3B242D9304009451FC /* Sources */,
 				27F4FC3C242D9304009451FC /* Frameworks */,
 				27F4FC3D242D9304009451FC /* Resources */,
+				27F4FC88242D9529009451FC /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -132,6 +318,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E5BE8C18E04C8927251C54D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntegrateAppOB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27F4FC3B242D9304009451FC /* Sources */ = {
@@ -282,9 +493,14 @@
 		};
 		27F4FC54242D9306009451FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8183DCF89E6BFC6860611FE2 /* Pods-IntegrateAppOB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter/$(CONFIGURATION)",
+				);
 				INFOPLIST_FILE = IntegrateAppOB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +515,14 @@
 		};
 		27F4FC55242D9306009451FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942C8845B243A285ED727780 /* Pods-IntegrateAppOB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter/$(CONFIGURATION)",
+				);
 				INFOPLIST_FILE = IntegrateAppOB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

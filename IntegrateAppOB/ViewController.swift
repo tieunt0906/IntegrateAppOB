@@ -7,9 +7,17 @@
 //
 
 import UIKit
+import Flutter
 
 class ViewController: UIViewController {
 
+    @IBAction func openChatbot(_ sender: Any) {
+        let flutterEngine = (UIApplication.shared.delegate as! AppDelegate).flutterEngine
+        let flutterViewController =
+            FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
+        present(flutterViewController, animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
